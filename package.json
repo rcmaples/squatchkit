@@ -1,0 +1,16 @@
+{
+  "name": "squatchkit",
+  "version": "0.1.0",
+  "description": "Simple UI Kit inspired by Skeleton CSS and Gruvbox.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "gruvbox",
+    "ui",
+    "skeleton"
+  ],
+  "author": "RC Maples",
+  "license": "MIT"
+}
