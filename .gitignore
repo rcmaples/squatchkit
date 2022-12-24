@@ -1,1 +1,27 @@
+#########################
+# Application specfic   #
+#########################
+# .env
+
+#########################
+# OS X temporary files  #
+#########################
 .DS_Store
+.Trashes
+*.swp
+
+#########################
+# Node                  #
+#########################
+
+node_modules
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
