@@ -9,7 +9,7 @@ export interface ButtonProps {
   onClick?: () => void;
 }
 
-export const Button = ({
+const Button = ({
   primary = false,
   size = 'medium',
   backgroundColor,
@@ -28,3 +28,5 @@ export const Button = ({
     </button>
   );
 };
+
+export { Button };
