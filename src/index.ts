@@ -11,6 +11,6 @@
 //   </React.StrictMode>
 // );
 
-import { Button } from './components/Button/Button'
+// import Button from './components/Button/Button'
 
-export { Button };
+export { default as Button } from './components/Button/Button'
