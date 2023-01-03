@@ -1,5 +1,5 @@
 import { render, screen } from '@testing-library/react';
-import Button from '../index'
+import { Button } from '../index'
 
 describe("<Button />", () => {
   it('should render a button on the screen', () => {

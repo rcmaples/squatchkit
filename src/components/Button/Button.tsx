@@ -1,5 +1,4 @@
 import React from 'react';
-import './button.css';
 export interface ButtonProps {
   primary?: boolean;
   backgroundColor?: string;
@@ -9,7 +8,7 @@ export interface ButtonProps {
   children: any;
 }
 
-const Button: React.FC<ButtonProps> = ({
+export const Button: React.FC<ButtonProps> = ({
   primary = false,
   size = 'medium',
   backgroundColor,
@@ -27,5 +26,3 @@ const Button: React.FC<ButtonProps> = ({
       </button>
   );
 };
-
-export default Button;
